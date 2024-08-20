@@ -1,0 +1,27 @@
+NXP Software Content Register
+
+Release Name:     NXP_CUP_2024_SW_support_1.0.0
+
+Description: This release is based on the BLN_RTD_4.7_S32K1XX_S32M24x_2.0.0 release. It contains the RTD support and a sample app that introduces the NXP Cup support for competitors.
+
+Release date: August 2024
+
+Outgoing License: NXP S32 PLATFORM SOFTWARE LICENSE AGREEMENT v1.9
+
+Automotive Realtime Drivers with support for Elektrobit Tresos and S32 Configuration Tool
+                  Description: NXP Automotive Real-Time Drivers package including NXP Cup Sample application
+                  Version: 2.0.0
+                  Author: NXP
+                  License: NXP S32 PLATFORM SOFTWARE LICENSE AGREEMENT v1.9
+                  Format: source
+                  Location (installer): eclipse\plugins\
+                  Location (part of S32 DS): <S32DS installation>\S32DS\software\PlatformSDK_S32K1_S32M24\RTD
+
+Platform header files
+                  Description: Header Files For S32K1XX RM Rev.14 and S32M24x RM Rev.2 Draft A
+                  Version: Rev. 1.1 / Rev 1.3
+                  Author: NXP
+                  License: Proprietary - LA_OPT_NXP_Software_License v57 July 2024 - Additional distribution license granted - Section 2.3 applies
+                  Format: source
+                  Location (installer): plugins\BaseNXP_TS_T40D2M20I0R0\header\
+                  Location (part of S32 DS): <S32DS installation>\S32DS\software\PlatformSDK_S32K1_S32M24\RTD\BaseNXP_TS_T40D2M20I0R0\header\
