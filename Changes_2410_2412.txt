@@ -1,0 +1,12 @@
+Changes between build 24/10 and build 24/12:
+	- PWM channels use proper hardware reloading now, removing the need for updating the duty in interrupts on servo and hbridge PWM channels.
+	- Extra code example for centering the servo
+	- Moved the default servo pin to be closer to the others
+	- Pixy2 and Linear camera drivers now use external buffers which must be declared by the user
+	- No need for extern variables anymore when using a linear camera, LinearCameraGetFrame now exists
+	- Removed some unused functions from the API
+	- Changed/Added these structures: Esc, Hbridge, Display
+	API Changes:
+	- Pixy2GetVectors now has a buffer passed by reference
+	- Added LinearCameraGetFrame
+	- Removed HbridgeGetSpeed, HbridgeGetBrake, GetSpeed, GetBrake, GetEscState
